@@ -1,0 +1,206 @@
+[
+  {
+    "@context": "http://localhost:8000/api-context",
+    "@id": "http://localhost:8000/api/items/24",
+    "@type": ["o:Item", "Chercheurs_Informatique:nsUniversit\u00e9"],
+    "o:id": 24,
+    "o:is_public": true,
+    "o:owner": { "@id": "http://localhost:8000/api/users/1", "o:id": 1 },
+    "o:resource_class": {
+      "@id": "http://localhost:8000/api/resource_classes/123",
+      "o:id": 123
+    },
+    "o:resource_template": {
+      "@id": "http://localhost:8000/api/resource_templates/15",
+      "o:id": 15
+    },
+    "o:thumbnail": null,
+    "o:title": "Universit\u00e9 de l\u0027Illinois \u00e0 Urbana-Champaign",
+    "thumbnail_display_urls": {
+      "large": "http://localhost:8000/files/large/85682086b71aed03e093dc01ba98ffbfe787a6f4.jpg",
+      "medium": "http://localhost:8000/files/medium/85682086b71aed03e093dc01ba98ffbfe787a6f4.jpg",
+      "square": "http://localhost:8000/files/square/85682086b71aed03e093dc01ba98ffbfe787a6f4.jpg"
+    },
+    "o:created": {
+      "@value": "2022-12-05T09:42:14+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:modified": {
+      "@value": "2022-12-05T10:15:03+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:media": [{ "@id": "http://localhost:8000/api/media/31", "o:id": 31 }],
+    "o:item_set": [],
+    "o:site": [],
+    "dcterms:title": [
+      {
+        "type": "literal",
+        "property_id": 1,
+        "property_label": "Title",
+        "is_public": true,
+        "@value": "Universit\u00e9 de l\u0027Illinois \u00e0 Urbana-Champaign"
+      }
+    ],
+    "dcterms:description": [
+      {
+        "type": "literal",
+        "property_id": 4,
+        "property_label": "Description",
+        "is_public": true,
+        "@value": "L\u2019universit\u00e9 de l\u2019Illinois \u00e0 Urbana-Champaign (UIUC) est le campus principal de l\u2019universit\u00e9 de l\u2019Illinois, \u00e9tablissement public situ\u00e9 dans les villes jumelles de Champaign et Urbana, \u00e0 deux cents kilom\u00e8tres au sud de Chicago. Elle ne doit pas \u00eatre confondue avec l\u0027universit\u00e9 de l\u0027Illinois \u00e0 Chicago (UIC), un autre grand \u00e9tablissement du syst\u00e8me de l\u0027universit\u00e9 de l\u0027Illinois qui se situe \u00e0 Chicago."
+      }
+    ],
+    "@reverse": {
+      "Chercheurs_Informatique:nshasuniversity": [
+        {
+          "@id": "http://localhost:8000/api/resources/28",
+          "o:title": "Brendan Eich"
+        }
+      ]
+    }
+  },
+  {
+    "@context": "http://localhost:8000/api-context",
+    "@id": "http://localhost:8000/api/items/27",
+    "@type": ["o:Item", "Chercheurs_Informatique:nsRelease"],
+    "o:id": 27,
+    "o:is_public": true,
+    "o:owner": { "@id": "http://localhost:8000/api/users/1", "o:id": 1 },
+    "o:resource_class": {
+      "@id": "http://localhost:8000/api/resource_classes/124",
+      "o:id": 124
+    },
+    "o:resource_template": {
+      "@id": "http://localhost:8000/api/resource_templates/14",
+      "o:id": 14
+    },
+    "o:thumbnail": null,
+    "o:title": "inventeur du langage JavaScript",
+    "thumbnail_display_urls": {
+      "large": "http://localhost:8000/files/large/3cfabcfcaec86c38c0ab63264b72529b40792ebe.jpg",
+      "medium": "http://localhost:8000/files/medium/3cfabcfcaec86c38c0ab63264b72529b40792ebe.jpg",
+      "square": "http://localhost:8000/files/square/3cfabcfcaec86c38c0ab63264b72529b40792ebe.jpg"
+    },
+    "o:created": {
+      "@value": "2022-12-05T09:59:07+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:modified": {
+      "@value": "2022-12-05T10:10:12+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:media": [{ "@id": "http://localhost:8000/api/media/30", "o:id": 30 }],
+    "o:item_set": [],
+    "o:site": [],
+    "dcterms:title": [
+      {
+        "type": "literal",
+        "property_id": 1,
+        "property_label": "Title",
+        "is_public": true,
+        "@value": "inventeur du langage JavaScript"
+      }
+    ],
+    "dcterms:description": [
+      {
+        "type": "literal",
+        "property_id": 4,
+        "property_label": "Description",
+        "is_public": true,
+        "@value": "JavaScript est un langage de programmation de scripts principalement employ\u00e9 dans les pages web interactives et \u00e0 ce titre est une partie essentielle des applications web. Avec les langages HTML et CSS, JavaScript est au c\u0153ur des langages utilis\u00e9s par les d\u00e9veloppeurs web."
+      }
+    ],
+    "Chercheurs_Informatique:nsDate": [
+      {
+        "type": "literal",
+        "property_id": 204,
+        "property_label": "date de Release",
+        "is_public": true,
+        "@value": "JavaScript a \u00e9t\u00e9 cr\u00e9\u00e9 en 1995 "
+      }
+    ],
+    "@reverse": {
+      "Chercheurs_Informatique:nshasRelease": [
+        {
+          "@id": "http://localhost:8000/api/resources/28",
+          "o:title": "Brendan Eich"
+        }
+      ]
+    }
+  },
+  {
+    "@context": "http://localhost:8000/api-context",
+    "@id": "http://localhost:8000/api/items/28",
+    "@type": ["o:Item", "Chercheurs_Informatique:nsResearcher"],
+    "o:id": 28,
+    "o:is_public": true,
+    "o:owner": { "@id": "http://localhost:8000/api/users/1", "o:id": 1 },
+    "o:resource_class": {
+      "@id": "http://localhost:8000/api/resource_classes/122",
+      "o:id": 122
+    },
+    "o:resource_template": {
+      "@id": "http://localhost:8000/api/resource_templates/13",
+      "o:id": 13
+    },
+    "o:thumbnail": null,
+    "o:title": "Brendan Eich",
+    "thumbnail_display_urls": {
+      "large": "http://localhost:8000/files/large/22de716b848fc546db89f8af046877877d62974e.jpg",
+      "medium": "http://localhost:8000/files/medium/22de716b848fc546db89f8af046877877d62974e.jpg",
+      "square": "http://localhost:8000/files/square/22de716b848fc546db89f8af046877877d62974e.jpg"
+    },
+    "o:created": {
+      "@value": "2022-12-05T10:04:57+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:modified": {
+      "@value": "2022-12-05T10:06:41+00:00",
+      "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "o:media": [{ "@id": "http://localhost:8000/api/media/29", "o:id": 29 }],
+    "o:item_set": [],
+    "o:site": [],
+    "dcterms:title": [
+      {
+        "type": "literal",
+        "property_id": 1,
+        "property_label": "Title",
+        "is_public": true,
+        "@value": "Brendan Eich"
+      }
+    ],
+    "Chercheurs_Informatique:nshasuniversity": [
+      {
+        "type": "resource",
+        "property_id": 202,
+        "property_label": "a comme university",
+        "is_public": true,
+        "@id": "http://localhost:8000/api/items/24",
+        "value_resource_id": 24,
+        "value_resource_name": "items",
+        "url": null,
+        "display_title": "Universit\u00e9 de l\u0027Illinois \u00e0 Urbana-Champaign",
+        "thumbnail_url": "http://localhost:8000/files/square/85682086b71aed03e093dc01ba98ffbfe787a6f4.jpg",
+        "thumbnail_title": "Universit\u00e9 de l\u0027Illinois \u00e0 Urbana-Champaign",
+        "thumbnail_type": "image/png"
+      }
+    ],
+    "Chercheurs_Informatique:nshasRelease": [
+      {
+        "type": "resource",
+        "property_id": 203,
+        "property_label": "a comme Release",
+        "is_public": true,
+        "@id": "http://localhost:8000/api/items/27",
+        "value_resource_id": 27,
+        "value_resource_name": "items",
+        "url": null,
+        "display_title": "inventeur du langage JavaScript",
+        "thumbnail_url": "http://localhost:8000/files/square/3cfabcfcaec86c38c0ab63264b72529b40792ebe.jpg",
+        "thumbnail_title": "js",
+        "thumbnail_type": "image/png"
+      }
+    ]
+  }
+]
