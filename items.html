@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+  </head>
+  <body>
+    <div id="main"></div>
+    <script>
+      /*const getData =(json) => {
+            var data = []
+            d3.json("./items.json").then((dataApi) => {
+             data.push(dataApi)
+            }
+            return data ;
+        }
+        var data = getData("./items.json");
+        console.log(data);*/
+      d3.json("./items.json").then((data) => {
+        //console.log(data);
+        d3.select("#main")
+          .selectAll("div")
+          .data(data)
+          .enter()
+          .append("div")
+          .attr("id", (d, i) => "id" + i)
+          .html(
+            (d, i) =>
+              "identifiant : " +
+              d["o:id"] +
+              "<br> " +
+              " titre : " +
+              d["dcterms:title"][0]["@value"] +
+              "<br> " +
+              " media : " +
+              d["o:media"][0]["@id"]
+          );
+      });
+    </script>
+  </body>
+</html>
