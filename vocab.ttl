@@ -1,0 +1,52 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix o: <http://omeka.org/s/vocabs/o#> .
+@prefix jdc: <http://linkedscience.org/lsc/ns> .
+@prefix ma: <http://www.w3.org/ns/ma-ont#>.
+
+<http://linkedscience.org/lsc/ns> a owl:Ontology ;
+    dcterms:title "Chercheurs_Informatique" .
+
+# ----------- Class --------------------
+
+jdc:Researcher a rdfs:Class ;
+    rdfs:label "Researcher" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+jdc:Université a rdfs:Class ;
+    rdfs:label "Université" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+jdc:Release a rdfs:Class ;
+    rdfs:label "Release" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+# ----------- Property --------------------
+
+jdc:Researcher a rdf:Property ;
+    rdfs:label "Researcher" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+jdc:hasuniversity a rdf:Property ;
+    rdfs:label "a comme university" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+jdc:hasRelease a rdf:Property ;
+    rdfs:label "a comme Release" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+jdc:Date a rdf:Property ;
+    rdfs:label "date de Release" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
